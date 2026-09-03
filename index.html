@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>吳政璟 Cheng-Ching Wu | 個人網站 & 課程平台</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <nav class="navbar">
+    <div class="logo">Cheng-Ching Wu</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">關於我</a></li>
+      <li><a href="#school-info">任教學校資訊</a></li>
+      <li><a href="#courses">新興科技課程</a></li>
+      <li><a href="#services">學生服務連結</a></li>
+      <li><a href="#contact">聯絡方式</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!-- 首頁 Banner -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="avatar-container">
+        <!-- 請確認圖片檔名與 HTML 位於同一資料夾 -->
+        <img src="20161105_210252.jpg" alt="吳政璟 Cheng-Ching Wu" class="avatar-img" />
+      </div>
+      <h1>吳政璟 <span class="subtitle">Cheng-Ching Wu</span></h1>
+      <p class="tagline">國立苑裡高級中學 資訊科教師</p>
+      <div class="hero-buttons">
+        <a href="#courses" class="btn primary-btn">探索課程資料</a>
+        <a href="#about" class="btn secondary-btn">了解個人背景</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 關於我 Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">關於我 <span>About Me</span></h2>
+    <div class="about-container">
+      <div class="bio-card">
+        <h3><i class="fa-solid fa-graduation-cap"></i> 個人簡歷與學經歷</h3>
+        <ul class="timeline">
+          <li><strong>1974 年</strong> 出生於苗栗縣苑裡鎮。</li>
+          <li><strong>求學歷程：</strong> 藍田國小、致民國中、省立台中一中畢業。</li>
+          <li><strong>1996 & 1998 年</strong> 取得國立中正大學資訊工程學系學士與碩士學位。</li>
+          <li><strong>歷任經歷：</strong> 國立嘉義高工實習教師、國軍花蓮總醫院資訊官、台中縣立大甲國中電腦教師。</li>
+          <li><strong>2001 年 8 月至今</strong> 於國立苑裡高級中學專任教師，深耕資訊教育。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 任教學校詳細介紹 Section -->
+  <section id="school-info" class="section bg-light">
+    <h2 class="section-title">任教學校介紹 <span>Current School</span></h2>
+    <div class="school-card">
+      <div class="school-header">
+        <i class="fa-solid fa-school school-icon"></i>
+        <div>
+          <h3>國立苑裡高級中學 (YLSH)</h3>
+          <p class="school-sub">National Yuang Li Senior High School</p>
+        </div>
+      </div>
+      <p class="school-desc">
+        吳政璟老師自 2001 年 8 月起於國立苑裡高中任教，致力於推動高中資訊教育與新興科技應用課程。學校提供完善的數位學習環境，包含為全校學生建置的 Google Workspace 雲端學習帳號、圖書查詢系統及各項校務線上服務。
+      </p>
+      <div class="school-highlights">
+        <div class="highlight-item">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h4>新興科技教學</h4>
+          <p>涵蓋 Git/GitHub 版本控制、物聯網 IC 設計、影像辨識及 AI 應用實作。</p>
+        </div>
+        <div class="highlight-item">
+          <i class="fa-solid fa-cloud"></i>
+          <h4>數位校園服務</h4>
+          <p>整合學生 Google Workspace 郵件、學習歷程檔案與各項線上報修、查詢系統。</p>
+        </div>
+      </div>
+      <div class="school-btn-container">
+        <a href="https://www.ylsh.mlc.edu.tw" target="_blank" class="btn primary-btn"><i class="fa-solid fa-globe"></i> 前往學校首頁</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 新興科技課程內容 Section -->
+  <section id="courses" class="section">
+    <h2 class="section-title">新興科技課程內容 <span>Emerging Tech</span></h2>
+    <div class="grid-container">
+
+      <div class="card">
+        <div class="card-icon"><i class="fa-brands fa-github"></i></div>
+        <h3>一、Git 與 GitHub</h3>
+        <p>程式與網頁開發者必備技能！零基礎快速上手版本控制。</p>
+        <div class="card-links">
+          <a href="https://www.youtube.com/watch?v=FKXRiAiQFiY" target="_blank"><i class="fa-brands fa-youtube"></i> Git/GitHub 入門指南</a>
+          <a href="https://www.youtube.com/watch?v=NovKS8kWYAg" target="_blank"><i class="fa-brands fa-youtube"></i> GitHub Pages 使用教學</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+        <h3>二、物聯網 IC 程式設計</h3>
+        <p>結合硬體感測器與網路連線，實作智慧物聯網應用。</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
+        <h3>三、影像辨識程式設計</h3>
+        <p>學習基礎電腦視覺與影像特徵分析，打造智慧識別系統。</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>四、AI 軟體應用作品範例</h3>
+        <p>學生作品示範與成果展示：</p>
+        <div class="card-links">
+          <a href="https://youtu.be/srAv4ZKRwbA" target="_blank"><i class="fa-solid fa-film"></i> 清水美食影片</a>
+          <a href="https://youtu.be/H79bAJXj16Y" target="_blank"><i class="fa-solid fa-triangle-exclamation"></i> 請勿飆車宣導影片</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-palette"></i></div>
+        <h3>五、Canva AI & API 實作</h3>
+        <p>生成式 AI 設計工具體驗與即時數據串接。</p>
+        <div class="card-links">
+          <a href="https://www.youtube.com/watch?v=Rdoj0XVbHUA" target="_blank"><i class="fa-brands fa-youtube"></i> Canva AI 實作 (一)</a>
+          <a href="https://www.youtube.com/watch?v=1dUJu9YIKu4" target="_blank"><i class="fa-brands fa-youtube"></i> Canva AI 實作 (二)</a>
+          <a href="https://www.youtube.com/watch?v=Gk12R4idh3g" target="_blank"><i class="fa-solid fa-cloud-sun"></i> 取得天氣 API 授權碼</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 線上帳號與服務說明 Section -->
+  <section id="services" class="section bg-light">
+    <h2 class="section-title">學生線上服務指南 <span>Online Services</span></h2>
+    <div class="services-box">
+      <p class="school-notice"><strong>國立苑裡高中 115 學年度學生線上服務說明</strong></p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>服務項目</th>
+              <th>登入帳號範例</th>
+              <th>預設密碼 / 備註</th>
+              <th>快速連結</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>學校首頁入口</td>
+              <td>-</td>
+              <td>提供家長學生各項線上服務連結</td>
+              <td><a href="https://www.ylsh.mlc.edu.tw" target="_blank" class="table-btn">前往首頁</a></td>
+            </tr>
+            <tr>
+              <td>Google Mail (方式A)</td>
+              <td><code>512xxx</code></td>
+              <td><code>St@</code> + 身分證字號前六碼數字</td>
+              <td><a href="http://gmail.ylsh.mlc.edu.tw" target="_blank" class="table-btn">登入郵件</a></td>
+            </tr>
+            <tr>
+              <td>Google Mail (方式B)</td>
+              <td><code>512xxx@ylsh.mlc.edu.tw</code></td>
+              <td><code>St@</code> + 身分證字號前六碼數字</td>
+              <td><a href="https://mail.google.com" target="_blank" class="table-btn">GMail入口</a></td>
+            </tr>
+            <tr>
+              <td>成績 / 輔導系統</td>
+              <td><code>512xxx</code></td>
+              <td>請點選「忘記密碼」進行重設</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>圖書資訊查詢</td>
+              <td><code>52xxx</code></td>
+              <td><code>St@</code> + 身分證字號前六碼數字</td>
+              <td><a href="https://lis.ylsh.mlc.edu.tw/webopac/" target="_blank" class="table-btn">圖書系統</a></td>
+            </tr>
+            <tr>
+              <td>重補修 / 課表 / 繳費 / 學習歷程</td>
+              <td>校務帳號 / Google帳號</td>
+              <td>課表查詢需登入學校 Google 帳號</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 頁尾 Section -->
+  <footer id="contact">
+    <p>&copy; 2026 吳政璟 Cheng-Ching Wu. All Rights Reserved. | 國立苑裡高級中學</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
